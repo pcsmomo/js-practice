@@ -11,9 +11,9 @@ var config = {
 
   skipPreloaderAnimation: false,
 
-  goToHongKong: function () {
-    goTo(22.28552, 114.15769);
-  },
+  // goToHongKong: function () {
+  //   goTo(22.28552, 114.15769);
+  // },
 };
 
 // var stats;
@@ -84,7 +84,7 @@ function init(ref) {
   gui.add(config, "isHaloVisible");
   gui.add(config, "isPoleVisible");
   gui.add(config, "autoSpin");
-  gui.add(config, "goToHongKong");
+  // gui.add(config, "goToHongKong");
   gui.add(config, "zoom", 0, 1).listen();
 
   // stats = new Stats();
